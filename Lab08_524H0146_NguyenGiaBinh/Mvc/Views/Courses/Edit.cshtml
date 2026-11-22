@@ -1,0 +1,5 @@
+@model School.Models.Course
+<h1>Courses</h1><form method="post">@Html.AntiForgeryToken() @Html.ValidationSummary()<input type="hidden" name="CourseID" value="@Model.CourseID"/>
+<label>Title <input required name="Title" type="text" value="@(Model.Title)"></label>
+<label>Credits <input required name="Credits" type="number" value="@(Model.Credits)"></label>
+<label>DepartmentID <input required name="DepartmentID" type="number" value="@(Model.DepartmentID)"></label><button>Save</button></form>

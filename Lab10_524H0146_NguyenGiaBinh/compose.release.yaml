@@ -1,0 +1,5 @@
+services:
+  mvc:
+    image: ${IMAGE_BASE}/mvc:${SHA}
+  razor:
+    image: ${IMAGE_BASE}/razor:${SHA}

@@ -1,0 +1,1 @@
+Tạo repo trong tài khoản sinh viên. Đặt hai thư mục Razor và Mvc cùng cấp, thêm .gitignore cho Visual Studio, commit. Trong Visual Studio dùng Git > Create Git Repository hoặc Add Remote, rồi Push. Mở repo để kiểm tra cả hai project và README; lưu URL thật và ảnh lịch sử commit.

@@ -1,0 +1,4 @@
+@model System.Collections.Generic.List<School.Models.Department>
+<nav><a href="/Departments">Departments</a> <a href="/Instructors">Instructors</a> <a href="/Courses">Courses</a> <a href="/Students">Students</a> <a href="/Enrollments">Enrollments</a> <a href="/Reports">Reports</a></nav><h1>Departments</h1><a href="/Departments/Edit">Add</a><table><tr><th>DepartmentID</th><th>Name</th><th>Budget</th><th>StartDate</th></tr>
+@foreach(var row in Model){<tr><td>@row.DepartmentID</td><td>@row.Name</td><td>@row.Budget</td><td>@row.StartDate</td><td><a href="/Departments/Edit/@row.DepartmentID">Edit</a><form method="post" action="/Departments/Delete">@Html.AntiForgeryToken()<input type="hidden" name="id" value="@row.DepartmentID"/><button>Delete</button></form></td></tr>}
+</table>

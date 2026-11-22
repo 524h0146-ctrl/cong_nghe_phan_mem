@@ -1,0 +1,4 @@
+Opening,Debit,Expected
+1000,200,800
+100,100,0
+100,150,error

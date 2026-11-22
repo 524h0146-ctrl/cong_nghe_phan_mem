@@ -1,0 +1,3 @@
+Username,Password,Expected
+user1,password1,Welcome
+user1,wrong,Invalid credentials

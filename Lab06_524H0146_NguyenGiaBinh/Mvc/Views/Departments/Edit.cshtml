@@ -1,0 +1,5 @@
+@model School.Models.Department
+<nav><a href="/Departments">Departments</a> <a href="/Instructors">Instructors</a> <a href="/Courses">Courses</a> <a href="/Students">Students</a> <a href="/Enrollments">Enrollments</a> <a href="/Reports">Reports</a></nav><h1>Departments</h1><form method="post">@Html.AntiForgeryToken() @Html.ValidationSummary()<input type="hidden" name="DepartmentID" value="@Model.DepartmentID"/>
+<label>Name <input required name="Name" type="text" value="@(Model.Name)"></label>
+<label>Budget <input required name="Budget" type="number" step="0.01" value="@(Model.Budget)"></label>
+<label>StartDate <input required name="StartDate" type="date" value="@(Model.StartDate.ToString("yyyy-MM-dd"))"></label><button>Save</button></form>
