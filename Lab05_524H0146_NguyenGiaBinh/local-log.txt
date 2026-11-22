@@ -1,0 +1,6 @@
+Local demonstration only. No remote GitHub collaborators.
+*   8eb9ebd Merge local student-name example
+|\  
+| * 0f4cd79 Add Student Name label and synchronized editor
+|/  
+* fc68315 Add school WinForms project

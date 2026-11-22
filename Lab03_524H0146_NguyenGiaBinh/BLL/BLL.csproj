@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies><TargetFramework>net48</TargetFramework></PropertyGroup><ItemGroup><ProjectReference Include="../DAL/DAL.csproj"/></ItemGroup></Project>
